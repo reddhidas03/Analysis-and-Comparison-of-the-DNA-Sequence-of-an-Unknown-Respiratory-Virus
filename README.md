@@ -1,4 +1,4 @@
-This repository contains the required Python codes used to generate the figures in the paper “Analysis and Comparison of the DNA Sequence of an Unknown Respiratory Virus with the Two Most Common Viruses - Influenza and Corona - Using Biopython”.
+This repository contains the required Python codes used to generate the figures in the paper “Analysis and Comparison of the DNA Sequence of an Unknown Respiratory Virus with Influenza and Corona Using Biopython”.
 
 This folder contains three .py files:
 1.	temp1.py was used for DNA sequencing of the unknown virus. It computes the DNA nucleotides G, A, T, C, and GC% of the unknown virus. This code was repeated for the DNA sequencing of influenza and corona.
