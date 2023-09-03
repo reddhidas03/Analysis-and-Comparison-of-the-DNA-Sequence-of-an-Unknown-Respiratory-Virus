@@ -1,4 +1,4 @@
-# DNA to PROTEIN of Unknown Virus
+# DNA to PROTEIN of the Unknown Virus
 
 mRNA=unk.transcribe()
 print("\n\nmRNA of Unknown : ",repr(mRNA)) 
@@ -28,4 +28,3 @@ df.rename(columns={0: "sequence"}, inplace=True)
 df.head()# Takes only longer than 20
 functional_proteins_unk= df.loc[df['Length'] >= 20]
 print('TotaL functional proteins in Unknown:', len(functional_proteins_unk))
-
