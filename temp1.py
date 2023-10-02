@@ -1,6 +1,6 @@
 # DNA Sequencing of the Unknown Virus
 
-for Proteins_unknown in SeqI0.parse('E:/Thesis Documents/Fasta files/Hepatitis C.fasta', "fasta"): 
+for Proteins_unknown in SeqIO.parse('E:/Thesis Documents/Fasta files/Hepatitis C.fasta', "fasta"): 
  print("\n\nUnknown ID:",Proteins_unknown.id)
  print("Seq: ",Proteins_unknown.seq)
  print("Length: ",len(Proteins_unknown))
